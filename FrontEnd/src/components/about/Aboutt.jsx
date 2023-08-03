@@ -12,7 +12,7 @@ const Aboutt = () => {
         <Back name='Thank you for being intrested in knowing more about us' title="Join Us" cover={img} />
         <div className='container flex mtop'>
           <div className='left row'>
-            <Heading title='Our Agency' subtitle='Check out our company story and work process' /> 
+            <Heading title='Our Agency' subtitle='Check out our company story and work process'/> 
             <p>Our story began  when our founder  recognized a need for a more personalized approach to real estate. 
             With a background we set out to build a team of like-minded professionals who shared a commitment to putting clients first.</p>
 
@@ -21,7 +21,7 @@ const Aboutt = () => {
             
             <p>What sets us apart from other real estate agencies is our dedication to insert unique selling proposition. 
             Whether you're buying or selling a property, we bring a unique perspective and a wealth of knowledge to every transaction. 
-            We understand that every client is unique, and we tailor our approach to meet their individual needs.</p>
+            We understand that every client is unique and we tailor our approach to meet their individual needs.</p>
             <Link to="/About">
               <button className='btn2'>Back</button>
               </Link>
